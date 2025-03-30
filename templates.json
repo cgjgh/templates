@@ -1518,6 +1518,39 @@
         "url": "https://github.com/portainer/templates",
         "stackfile": "edge/anyviz/docker-compose.yml"
       }
+    },
+    {
+      "id": 70,
+      "categories": [
+        "Tools",
+        "Authentication"
+      ],
+      "description": "Authentik is an open-source Identity Provider focused on flexibility and versatility",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://raw.githubusercontent.com/cgjgh/portainer_templates/master/Images/authentik.png",
+      "name": "Authentik",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/authentik.yml",
+        "url": "https://github.com/cgjgh/portainer_templates"
+      },
+      "title": "Authentik",
+      "type": 3
     }
   ]
 }
